@@ -2,7 +2,7 @@ import { booksData } from '../data/booksData'
 import { Book } from './Book'
 import { useReducer, useRef } from 'react'
 import { bookReducer } from '../utils/bookReducer'
-import { ThemeContext } from '../utils/themeContext'
+import { ThemeContext } from '../utils/ThemeContext'
 import { type ThemeType } from '../types/ThemeType'
 import { useState } from 'react'
 

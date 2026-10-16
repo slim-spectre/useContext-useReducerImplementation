@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import type { BookProps } from '../interfaces/BookProps'
 import { useContext } from 'react'
-import { ThemeContext } from '../utils/themeContext'
+import { ThemeContext } from '../utils/ThemeContext'
 
 export const Book = ({ book, isEditing, dispatch, isBorrowed }: BookProps) => {
   const [formData, setFormData] = useState({
